@@ -30,7 +30,6 @@
       font-size: 0.8rem;
   }
   .header li a {
-    border-right: 1px solid #f4f4f4;
     text-decoration: none;
     /* border: 1px solid #2868B1; */
   }
@@ -207,7 +206,7 @@
     /* border: 1px solid indigo; */
     margin:0;
     background-color: #F6F6F6;
-    padding: 4em 0 0 0;
+    padding: 3em 0 2em 0;
 }
 .three h6{
     display: inline-block;
@@ -223,15 +222,14 @@
     width:80%;
     /* border:1px solid red; */
     margin: 0 auto 3em auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    
 }
 .three .card-one{
     
     /* border:1px solid green; */
     padding: 1em 1em;
     background-color: #fff;
+    margin: 1em 0;
    
 }
 .three img{
@@ -266,13 +264,17 @@ footer img{
     width:100px;
     margin-bottom:1em;
 }
+footer .twospan{
+    display: flex;
+}
 .links{
     background-color: #F6F6F6;
     /* border:1px solid green; */
     padding:4em 0 4em 0;
+    flex-basis: 50%;
 }
 .links .contain-one{
-    width: 80%;
+    width: 60%;
     margin: 0em auto;
 }
 .links p{
@@ -369,6 +371,11 @@ a:hover{
         width: 60%;
         margin:4em 0;
    }
+   .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+   }
    .three .card-one{
        padding: 3em 3em;  
        
@@ -387,11 +394,15 @@ a:hover{
       display: flex;
       margin: 0 auto;
   }
-  .address, .links{
-      flex-basis: 33.3%;
+  footer .twospan{
+      width: 60%;
+  }
+  .address{
+      flex-basis: 40%;
   }
   .contain{
-      width:40%;
+      width:100%;
+      padding-left: 25%;
   }
   .links{
       padding:12em 0 0 0;
