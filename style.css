@@ -206,6 +206,7 @@
 .three p{
     font-size:0.8rem;
     line-height: 2em;
+    padding: 1em 0;
 }
 .card{
     width:80%;
