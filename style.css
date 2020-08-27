@@ -194,6 +194,7 @@
     width:100%;
     text-align: center;
     margin:0 auto;
+    -webkit-animation: rightToLeft 1s linear;
     
 }
 .two img{
@@ -289,6 +290,7 @@ a:hover{
 .five img{
     width: 100%;
     margin-bottom:2em;
+    height: 200px;
 }
 .w-80{
     width:80%;
