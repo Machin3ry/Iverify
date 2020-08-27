@@ -194,7 +194,8 @@
     width:100%;
     text-align: center;
     margin:0 auto;
-    -webkit-animation: rightToLeft 1s linear;
+    -webkit-animation: rightToLeft 2s linear;
+    position: relative;
     
 }
 .two img{
