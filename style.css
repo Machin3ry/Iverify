@@ -303,6 +303,14 @@ a:hover{
 .seven p,.six p{
     font-size:0.8rem;
 }
+.eight h6{
+    font-size:1rem;
+    color: #060606;
+}
+.eight p{
+    font-size: 0.8rem;
+    color:#333;
+}
 /****************RESPONSIVENESS*******************/
 
 
@@ -387,7 +395,7 @@ a:hover{
     display: flex; 
 }
 .seven img{
-    width:60%;
+    width:40%;
 }
 
 .centre{
@@ -401,9 +409,14 @@ a:hover{
 .eight{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
-.eight h3{
-    flex:0 1 100%;
+.eight h4{
+    flex:0 0 100%;
+    margin-bottom:1em
 }
-
+.eight img{
+    width: 250px;
+    height:350px;
+}
 }
