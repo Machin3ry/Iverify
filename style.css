@@ -131,6 +131,11 @@
 .extend{
     width: 80%;
     margin: 0 auto;
+    -webkit-animation: fadeInAnimation ease 3s ;
+    -webkit-animation-iteration-count: 1; 
+    -webkit-animation-fill-mode: forwards; 
+    
+    
 }
 .section-content{
     margin:2em 0;
@@ -180,6 +185,8 @@
     margin:0 auto 2em auto;
     line-height:1.2em;
     padding-top:1em;
+    -webkit-animation: leftToRight 2s linear;
+    position: relative;
 }
 
 .two .video{
@@ -290,8 +297,15 @@ a:hover{
 .just{
     text-align: justify;
 }
+.six{
+    -webkit-animation: leftToRight 1s linear;
+    position: relative;
+}
 .seven{
     text-align: center;
+    -webkit-animation: rightToLeft 1s linear;
+    position: relative;
+
 }
 
 .seven img{
@@ -320,6 +334,30 @@ a:hover{
 .eight h4{
     margin-bottom: 1.4em;
 }
+
+/****KEY FRAMES**********/
+
+@-webkit-keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+@-webkit-keyframes leftToRight { 
+    0% {left: -200px;}
+    100%{left:0;}
+ }
+
+ @-webkit-keyframes rightToLeft { 
+    0% {right: -200px;}
+    100%{right:0;}
+ }
+
+
+
 /****************RESPONSIVENESS*******************/
 
 
