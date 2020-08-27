@@ -278,7 +278,7 @@ a:hover{
     color:#007AFF;
 }
 /*****************ABOUT US PAGE******************/
-.five img,.eight img{
+.five img{
     width: 100%;
     margin-bottom:2em;
 }
@@ -303,6 +303,10 @@ a:hover{
 .seven p,.six p{
     font-size:0.8rem;
 }
+.eight img{
+    width: 100%;
+    margin-bottom: 0.8em;
+}
 .eight h6{
     font-size:1rem;
     color: #060606;
@@ -310,6 +314,10 @@ a:hover{
 .eight p{
     font-size: 0.8rem;
     color:#333;
+    margin-bottom: 2em;
+}
+.eight h4{
+    margin-bottom: 1.4em;
 }
 /****************RESPONSIVENESS*******************/
 
